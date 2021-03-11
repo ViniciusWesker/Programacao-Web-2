@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+
+
+<?php
+
+$numero = 3;
+
+if ($numero>0 && $numero%2==0)
+{
+ echo "par";
+}
+else if ($numero>0 && $numero%2!=0)
+{
+ echo "impar";
+}
+else if ($numero<0)
+{
+ echo "<script> alert('Esse número não é positivo.') </script>";
+}
+
+?>
+
+<br>
+----------------------------------
+<br>
+
+<?php
+
+$numeros = array('70', '3', '8', '9', '4');
+
+sort($numeros);
+
+print_r($numeros);
+
+?>
+
+
+</body>
+</html>
