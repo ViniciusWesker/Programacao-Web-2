@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+
+
+<?php
+    
+$a=3;
+$b=2;
+$cor=red;
+$cor2=yellow;
+
+if ($a+$b>10)
+{
+  echo 
+  "
+  <style>
+  body{background-color:$cor}
+  </style>
+  ";
+}
+else if ($a*$b%2!=0)
+{
+  echo 
+  "
+  <style>
+  body{background-color:$cor2}
+  </style>
+  ";
+}
+else
+{
+  echo 
+  "
+  <style>
+  body{background-image:url(https://www.clicandoeandando.com/wp-content/uploads/2016/06/Como-tirar-fotos-melhores-com-qualquer-c%C3%A2mera-macro.jpg)}
+  </style>
+  ";
+}
+    
+?> 
+    
+</body>
+</html>
