@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+
+
+<?php
+
+$fundo=gray;
+$nome=Vinicius;
+$imagem="https://upload.wikimedia.org/wikipedia/pt/d/d6/Logogav.png";
+
+ echo 
+ "
+ <h1>
+ <p align=center>
+ $nome
+ </p>
+ </h1>
+ ";
+
+ echo 
+  "
+  <style>
+  body{background-color:$fundo}
+  </style>
+  ";
+  
+    echo 
+  "
+  <p align=center>
+  <img src='$imagem'>
+  </p>
+  ";
+
+?>
+
+</body>
+</html>
