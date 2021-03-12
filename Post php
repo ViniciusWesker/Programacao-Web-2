@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>comunicacao post</title>
+  </head>
+  <body>
+  
+  <div>
+  <form form id="f1" action="index.php" method="post">
+  <label for="nome">Nome:</label>
+  <input type="Text" id="nome" name="nome">
+  <br>
+  <label for="mail">Email:</label>
+  <input type="mail" id="mail" name="mail">
+  <br>
+  <label for="Birthday">Data de nascimento:</label>
+  <input type="Date" id="nascimento" name="nascimento">
+  <br>
+  <input type="submit" name="enviar">
+  
+  </form>
+  </div>
+  
+  
+    <?php 
+    
+    
+    echo "Seus Dados: <br>";
+    echo "Nome: " . $_POST["nome"] . "<br> Email: " . $_POST["mail"] . "<br> Data de Nascimento: " . $_POST["nascimento"];
+    
+    
+    
+    
+    ?>
+   
+    
+  </body>
+</html>
